@@ -5,18 +5,291 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Golden Studio</title> 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="./vendor/bootstrap-grid.css" />
+        <link rel="stylesheet" href="./vendor/bootstrap-grid.css">
         <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
     </head>
     <body>
-        <nav>
-
+        <nav class="fixed-top navbar navbar-dark navbar-expand-md ">
+            <div class="container">
+                <a class="navbar-brand" href="#"> Golden</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavi" aria-controls="navbarNavi" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavi">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-uppercase" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <header>
-
+        <header id="home" class="services container d-flex">
+            <div class="d-flex container">
+                <h2>Welcome To Our Studio!</h2>
+                <h1 class="text-uppercase">It’s nice to Meet you </h1>
+                <button class="btn btn-yellow btn-default text-uppercase">Tell me more</button>
+            </div>
         </header>
-        <footer>
-            
+        <section id="services">
+            <h1 class="text-uppercase">Services</h1>
+            <h3 class="text-center">Natus deleniti voluptatum dolorum repellat.</h3>
+            <div class="wrapper d-flex">
+                <div class="service d-flex">
+                    <div class="circle">
+                        <object data="./images/Icon-Basket.svg" type=""></object>
+                    </div>
+                    <h4>E-commerce</h4>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio illum tempora dolorum molestias deleniti facere qui quas.</p>
+                </div>
+                <div class="service d-flex">
+                    <div class="circle">
+                        <object data="./images/Icon-Laptop.svg" type=""></object>
+                    </div>
+                    <h4>Responsive Web</h4>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio illum tempora dolorum molestias deleniti facere qui quas.</p>
+                </div>
+                <div class="service d-flex">
+                    <div class="circle">
+                        <object data="./images/Icon-Locked.svg" type=""></object>
+                    </div>
+                    <h4>Web Security</h4>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio illum tempora dolorum molestias deleniti facere qui quas.</p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio container-fluid d-flex">
+            <h1 class="text-uppercase">Portfolio</h1>
+            <h3 class="text-center">Natus deleniti voluptatum dolorum repellat.</h3>
+            <div class="wrapper d-flex">
+                <div class="projects container d-flex flex-wrap">
+                    <div class="project">
+                        <img src="./images/portfolio1.png" alt="Ebony and ivory">
+                        <div class="details">
+                            <h4 class="text-center">Ebony & Ivory</h4>
+                            <p class="text-center">Branding</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="./images/portfolio2.png" alt="Smart Stationery">
+                        <div class="details">
+                            <h4 class="text-center">Smart Stationary</h4>
+                            <p class="text-center">Print Design</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="./images/portfolio3.png" alt="Clever Poster">
+                        <div class="details">
+                            <h4 class="text-center">Clever Poster</h4>
+                            <p class="text-center">Print Design</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="./images/portfolio4.png" alt="Vinyl disc">
+                        <div class="details">
+                            <h4 class="text-center">Vinyl Record</h4>
+                            <p class="text-center">Product Mock-Up</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="./images/portfolio5.png" alt="Web template">
+                        <div class="details">
+                            <h4 class="text-center">Treehouse Template</h4>
+                            <p class="text-center">Web Design</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="./images/portfolio6.png" alt="Logo">
+                        <div class="details">
+                            <h4 class="text-center">Burned Logo</h4>
+                            <p class="text-center">Branding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about container d-flex">
+            <h1 class="text-uppercase">About us</h1>
+            <h3 class="text-center">Natus deleniti voluptatum dolorum repellat.</h3>
+            <div class="timeline">
+                <ul>
+                    <li class="timeline-item">
+                        <div class="circle">
+                            <img src="./images/project1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4 class="text-uppercase">July 2010</h4>
+                            <h4>Our Humble Beginnings</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, fugiat! Iusto tempora rerum eum rem. Placeat perferendis porro, dolorem non neque labore.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="circle">
+                            <img src="./images/project2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4 class="text-uppercase">January 2011</h4>
+                            <h4>Facing Startup Battles</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, fugiat! Iusto tempora rerum eum rem. Neque consectetur omnis voluptate recusandae molestiae illo, quaerat reiciendis tenetur?</p>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="circle">
+                            <img src="./images/project3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4 class="text-uppercase">December 2012</h4>
+                            <h4>Enter The Dark Days</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eaque non optio nesciunt vel, eligendi enim dicta cupiditate nam esse voluptates quisquam similique quos reprehenderit!</p>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="circle">
+                            <img src="./images/project4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4 class="text-uppercase">February 2014</h4>
+                            <h4>Our Triumph</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto excepturi beatae ducimus, rem porro, doloribus iste, vitae asperiores harum doloremque id quidem velit. Voluptatum officia sunt impedit omnis.</p>
+                        </div>
+                    </li>
+                    <li class="timeline-item end">
+                        <div class="circle">
+                            <p class="text-center text-uppercase">Our story continues ...</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="team" class="team container-fluid d-flex">
+            <h1 >Our amazing team</h1>
+            <h3>Natus deleniti voluptatum dolorum repellat.</h3>
+            <div class="wrapper container d-flex">
+                <div class="person d-flex">
+                    <div class="photo">
+                        <img src="./images/team1.jpg" alt="">
+                    </div>
+                    <h5 class="name">Kimberly Thompson</h5>
+                    <h6 class="function">Marketer</h6>
+                    <div class="social-media d-flex">
+                        <div class="social twitter">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social facebook">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </div>
+                        <div class="social pinterest">
+                            <i class="fab fa-pinterest-p"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="person d-flex">
+                    <div class="photo">
+                        <img src="./images/team2.jpg" alt="">
+                    </div>
+                    <h5 class="name">Rico Massimo</h5>
+                    <h6 class="function">Coder</h6>
+                    <div class="social-media d-flex">
+                        <div class="social twitter">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="social facebook">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </div>
+                        <div class="social googleplus">
+                            <i class="fab fa-google-plus-g"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="person d-flex">
+                    <div class="photo">
+                        <img src="./images/team3.jpg" alt="">
+                    </div>
+                    <h5 class="name">Uku Mason</h5>
+                    <h6 class="function">Graphic Designer</h6>
+                    <div class="social-media d-flex">
+                        <div class="social facebook">
+                            <i class="fab fa-facebook-f fa-lg"></i>
+                        </div>
+                        <div class="social pinterest">
+                            <i class="fab fa-pinterest-p"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque necessitatibus illo maxime culpa nesciunt magni molestias sit natus eaque dolorem?</p>
+            </div>
+        </section>
+        <section id="logos" class="logos container d-flex">
+            <div class="logo">
+                <img src="./images/logo1.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="./images/logo3.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="./images/logo4.png" alt="">
+            </div>
+        </section>
+        <section id="contact" class="contact container-fluid d-flex">
+            <h1 class="text-uppercase">Contact US</h1>
+            <h3 class="text-center">Nisi, nesciunt maiores. Delectus accusamus facilis maxime.</h3>
+            <div class="container ">
+                <form class="form">
+                    <div class="wrapper d-flex w-100">
+                        <div class="form-column w-100">
+                            <div class="form-group">
+                                <input class="text-uppercase" type="text" placeholder="Your name *">
+                            </div>
+                            <div class="form-group">
+                                <input class="text-uppercase" type="text" placeholder="Your email *">
+                            </div>
+                            <div class="form-group">
+                                <input class="text-uppercase" type="text" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="form-column w-100">
+                            <div class="form-group">
+                                <textarea class="text-uppercase" placeholder="Your message *"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-yellow btn-default text-uppercase mx-auto d-block ">Send message</button>
+                </form>
+            </div>
+        </section>
+        <footer class="container d-flex ">
+            <p>© Copyright 2014 FreebiesExpress</p>
+            <div class="social-media d-flex mx-auto">
+                <div class="social twitter">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="social facebook">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                </div>
+                <div class="social pinterest">
+                    <i class="fab fa-pinterest-p"></i>
+                </div>
+                <div class="social googleplus">
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
